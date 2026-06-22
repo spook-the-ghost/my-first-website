@@ -1,18 +1,67 @@
 body {
-  font-family: Arial;
-  text-align: center;
-  margin-top: 100px;
-  background: #f4f4f4;
-}
-
-h1 {
-  color: #333;
-}
-
-button {
-  padding: 10px 20px;
-  border: none;
-  background: blue;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f14;
   color: white;
-  border-radius: 5px;
+}
+
+/* HERO SECTION */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: linear-gradient(135deg, #6a00ff, #00d4ff);
+}
+
+.hero h1 {
+  font-size: 50px;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 18px;
+  margin-top: 10px;
+  opacity: 0.9;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background: black;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+/* SECTIONS */
+.about, .projects {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+h2 {
+  color: #00d4ff;
+}
+
+/* PROJECT CARDS */
+.card {
+  background: #1a1a24;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #2a2a3a;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  opacity: 0.6;
 }
